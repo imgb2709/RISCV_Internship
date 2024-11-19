@@ -17,6 +17,7 @@ The given repository contains the Verilog code and Testbench code of RISCV proce
 
 `iverilog -o <Directory_name> maazm_rv32i.v maazm_rv32i_tb.v`
 `./iiitb_rv32i`
+
 7. Now a vsd file is generated and it is stored inside you directory. To view the generated waveforms, type the following commands.
 
 `gtkwave iiitb_rv32i.vcd`
